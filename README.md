@@ -15,4 +15,4 @@ It would be possible to just use the PIO of the pi pico to do this. However, mos
 
 TODO: Clean up the project and KiCAD files before adding them here.
 
-![Screenshot of the menu system](https://raw.githubusercontent.com/seanboyce/trng/refs/heads/main/qtrng.jpg)
+![photo of the trng](https://raw.githubusercontent.com/seanboyce/trng/refs/heads/main/qtrng.jpg)
