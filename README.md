@@ -11,3 +11,6 @@ The next hex inverter operates more or less digitally, just shaping the signal i
 After that, and attiny261A acts as a Von Neumann extractor to convert the square wave into usable, unbiased bits of entropy. It's just an inefficient assembly program I wrote 15 years ago, I'll clean it up eventually. The bytes are read by a Pi Pico W and pushed out MQTT.
 
 It would be possible to just use the PIO of the pi pico to do this. However, most of the time I don't actually want the Pi Pico or WiFi, and am just using the entropy locally. 
+
+
+TODO: Clean up the project and KiCAD files before adding them here.
