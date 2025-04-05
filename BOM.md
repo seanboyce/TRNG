@@ -1,10 +1,10 @@
 # Required:
 
 ## Resistors (all 0402):
-1x 20k
-1x 1k
-3x 50k
-1x 1M
+- 1x 20k
+- 1x 1k
+- 3x 50k
+- 1x 1M
 
 ## Capacitors:
 2x 22uF ceramic non-polar 1206
