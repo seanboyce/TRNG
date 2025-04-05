@@ -84,14 +84,14 @@ RET ;return but do not enable interrupts yet, we'll manage interrupts manually
 
 OUTPUT0:
 NOP ; Not needed. Just for symmetry.
-cpi r20,0b1000000
+cpi r20,0b10000000
 brsh PAROUT
 lsl r20 ; rotate iteration counter left -- just moves to the next bit.
 RJMP LOOP
 
 OUTPUT1:
 add r21,r20
-cpi r20,0b1000000
+cpi r20,0b10000000
 brsh PAROUT
 lsl r20 ; rotate iteration counter left -- just moves to the next bit.
 RJMP LOOP
