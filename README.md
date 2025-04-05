@@ -41,6 +41,8 @@ At this point, I just load the program into the Pi Pico, disconnect it from the 
 
 **DO NOT plug a USB cable into the Pi Pico while it is connected to this circuit** It is being powered by 3.3V. USB is 5V. Several components are likely to fail violently, and the circuit will put unsupported voltages on the Pi Pico GPIO pins.
 
+As for what part goes where? It's all in the KiCAD schematic. I would recommend giving it a detailed look.
+
 ## The Von Neumann Extractor
 
 This just measures two time intervals between 2 sets of 2 independent events (it could probably use 3 events instead of 4 to calculate 2 intervals, but whatever. It's much faster than fast enough now). If t1>t2, it records a 0. If t1<t2, it records a 1. If they are equal, it tries again.
