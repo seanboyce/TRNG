@@ -39,3 +39,4 @@
 6. Exact capacitor values are not critical either, except on the boost converter (those two 22uF)
 7. Heck, the exact Schottky diode doesn't really matter much either. I just used the one I had
 8. You can use other transistors, however 2N5551 starts avalanching at a relatively low voltage. Others may work. I selected the 2N5551 after trying a few types and measuring the avalanche signal frequency and the voltage it started at. It's probably not the best one, just the best one I have in stock.
+9. Attiny261A is just the one I had lying around. I've also made this circuit with the attiny10 -- it just raises one of two outputs high when triggered, essentially providing one-shot, one bit output.
