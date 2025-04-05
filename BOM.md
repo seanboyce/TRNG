@@ -35,3 +35,7 @@
 2. The JST connectors are handly for connecting power to the board through J1. It's expected that you bridge the middle pin of J1 to VCC of the input voltage. It's connected to the enable pin of the MT3608
 3. J2 lets you bypass the integrated boost converter, e.g. if you just want to supply ~12V to the board. In this case, all of the boost converter parts should not be added to the board.
 4. Strictly speaking, the Attiny261A could be eliminated by just using the PIO of the pi pico. However, I often use this design in cases where Internet connectivity is not useful -- in these cases I just don't populate the Pi Pico, which is more expensive than an Attiny261A.
+5. Exact resistor values are not critical, however 1 + 0.6(R5/R6) gives you the output voltage of the boost converter. A ratio of 20 should get you between 12 and 13 volts.
+6. Exact capacitor values are not critical either, except on the boost converter (those two 22uF)
+7. Heck, the exact Schottky diode doesn't really matter much either. I just used the one I had
+8. You can use other transistors, however 2N5551 starts avalanching at a relatively low voltage. Others may work. I selected the 2N5551 after trying a few types and measuring the avalanche signal frequency and the voltage it started at. It's probably not the best one, just the best one I have in stock.
