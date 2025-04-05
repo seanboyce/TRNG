@@ -13,7 +13,7 @@ This unusual use of the hex inverter is to reduce the parts count and cost -- I 
 
 The next hex inverter operates more or less digitally, just shaping the signal into a clean square wave. This one does not get warm.
 
-After that, and attiny261A acts as a Von Neumann extractor to convert the square wave into usable, unbiased bits of entropy. It's just an inefficient little assembly program I wrote 15 years ago, it works fine but consumes a touch more power than it needs to -- I'll clean it up eventually, I promise I write much more efficient assembly these days. (Probably. Maybe probably.) 
+After that, and attiny261A acts as a Von Neumann extractor to convert the square wave into usable, unbiased bits of entropy. 
 
 The bytes are read by a Pi Pico W and pushed out MQTT. Basic authentication works. I didn't bother adding TLS.
 
