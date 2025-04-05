@@ -26,7 +26,7 @@
 - 2x 12pF ceramic non-polar 0603
 - 2x two-pin JST connector
 - 1x LM7803 linear regulator (alternative to a buck converter to get 3.3V)
-- 1x covenant with the Old Powers
+- ~~1x covenant with the Old Powers~~
 
 #Notes: 
 
