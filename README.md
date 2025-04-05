@@ -5,7 +5,7 @@ This circuit is designed to output random bytes out MQTT, each as a message. It 
 # How it works
 
 The core entropy source is two transistors in an unusual configuration. This is an old technique analogous to the classic "zener diode" method. It has the advantage of producing a slower signal, easier to sample.
-It outputs tunneling noise with heavy DC bias. 
+It outputs avalanche noise with heavy DC bias. 
 
 We remove the DC component wth a capacitor, then use two hex inverters for amplification and pulse-shaping. The first hex inverter is running at ~12V and is configured as two inverting amplifiers -- this is really power inefficient and it gets a bit warm due to the digital part working in linear modes. A little heat sink is recommended. 
 
