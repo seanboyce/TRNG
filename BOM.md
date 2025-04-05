@@ -27,3 +27,10 @@
 - 2x two-pin JST connector
 - 1x LM7803 linear regulator (alternative to a buck converter to get 3.3V)
 - 1x covenant with the Old Powers
+
+#Notes: 
+
+1. The optional crystal as a clock source for the attiny is untested. Maybe double check I connected it right. If using it, the 12pF caps are required.
+2. The JST connectors are handly for connecting power to the board through J1. It's expected that you bridge the middle pin of J1 to VCC of the input voltage. It's connected to the enable pin of the MT3608
+3. J2 lets you bypass the integrated boost converter, e.g. if you just want to supply ~12V to the board. In this case, all of the boost converter parts should not be added to the board.
+4. Strictly speaking, the Attiny261A could be eliminated by just using the PIO of the pi pico. However, I often use this design in cases where Internet connectivity is not useful -- in these cases I just don't populate the Pi Pico, which is more expensive than an Attiny261A. Also I wrote the Von Neumann extractor for the attiny ages ago so already had it.
