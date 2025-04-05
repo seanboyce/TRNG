@@ -45,7 +45,7 @@ At this point, I just load the program into the Pi Pico, disconnect it from the 
 
 This just measures two time intervals between 2 sets of 2 independent events (it could probably use 3 events instead of 4 to calculate 2 intervals, but whatever. It's much faster than fast enough now). If t1>t2, it records a 0. If t1<t2, it records a 1. If they are equal, it tries again.
 
-I wrote this *ages* ago. It was quite an experience to look at my ham-fisted assembly from 15 years ago. I redid it with many optimizations, which increased the output from 100-300 bytes per second to around 10,000 bytes per second. Also it consumes less power.
+I wrote this *ages* ago. It was quite an experience to look at my ham-fisted assembly from 15 years ago. I redid it with many optimizations, which increased the output from 100-300 bytes per second to around 10,000 bytes per second. Also it consumes less power. Use main.asm, not old_von_neumann.asm. Seriously, the latter is pretty awful.
 
 I include both files, so that one day I may look back and consider *both attempts* primitive and silly.
 
