@@ -1,6 +1,6 @@
 # Function
 
-This circuit is designed to output random bytes out MQTT, each as a message. It works at 10,000 bytes per second depending on system voltage and the fact that the bitrate of the entropy source is variable by nature.
+This circuit is designed to output random bytes out MQTT, each as a message. It works at 8-10k bytes per second depending on system voltage and the fact that the bitrate of the entropy source is variable by nature.
 
 # How it works
 
