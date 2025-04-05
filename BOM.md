@@ -1,6 +1,6 @@
 # Required:
 
-##Resistors (all 0402):
+## Resistors (all 0402):
 1x 20k
 1x 1k
 3x 50k
