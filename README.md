@@ -43,9 +43,9 @@ Once that's in, I put in the transistors (mind polarity!), the first hex inverte
 
 Then I get the buck converter / LM7803 in, as well as the final hex inverter. Then I test as above (scope can be AC or DC coupled), making sure the signal from the second hex inverter is a weird looking, but mostly clean square wave ranging from 0 to 3.3V.
 
-If that's good, I flash the program to an Attiny261A (using AVR-ICE, STK500 or home-made programmer). For the first few boards, I put in a socket for the AVR, so I can pull it out and update the firmware. Then I quickly check again, specifically that the "new output" pin of the Attiny261A is pushing out 10 usec pusles, and that bits are coming out of the pins of PORTA.
+If that's good, I flash the program (main.asm) to an Attiny261A (using AVR-ICE, STK500 or home-made programmer). For the first few boards, I put in a socket for the AVR, so I can pull it out and update the firmware. Then I quickly check again, specifically that the "new output" pin of the Attiny261A is pushing out 10 usec pusles, and that bits are coming out of the pins of PORTA.
 
-At this point, I just load main.py into the Pi Pico, disconnect it from the USB cable, and plug it in. The onboard LED should light up if it's receiving power, and flicker slightly if it's pushing out MQTT. If it doesn't flicker, try turning it off and on again, sometimes it can fail to connect to Wi-Fi.
+At this point, I just load the program (main.py) into the Pi Pico, disconnect it from the USB cable, and plug it in. The onboard LED should light up if it's receiving power, and flicker slightly if it's pushing out MQTT. If it doesn't flicker, try turning it off and on again, sometimes it can fail to connect to Wi-Fi.
 
 **DO NOT plug a USB cable into the Pi Pico while it is connected to this circuit** It is being powered by 3.3V. USB is 5V. Several components are likely to make sad electronic noises, fail violently, and lose their magic blue smoke.
 
