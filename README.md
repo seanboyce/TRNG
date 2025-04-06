@@ -51,6 +51,8 @@ I wrote this *ages* ago. It was quite an experience to look at my ham-fisted ass
 
 I include both files, so that one day I may look back and consider *both attempts* primitive and silly.
 
-TODO: Clean up the project and KiCAD files before adding them here.
+## Photo
+
+Note the black "bodge wire" near the USB power input. This was necessary because of an error in the original design files. The version in this repository has been corrected, and you won't need to cut any traces / add weird wires and so on.
 
 ![photo of the trng](https://raw.githubusercontent.com/seanboyce/trng/refs/heads/main/qtrng2.jpg)
