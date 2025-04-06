@@ -33,7 +33,7 @@ It would be possible to just use the PIO of the pi pico instead of an attiny261A
 
 This design makes extensive use of surface-mount components. I have limited budget and time to spend on my hobbies, so I generally use the smallest possible SMT components to save money and time. If you find 0402 difficult to work with, then it's very fast to open up the KiCAD files in this repo, and replace all the 0402 resistors with 0603 in the schematic. Then just pull up the board design, update from the schematic, and touch up the routing -- you should be good to go.
 
-If you want to redesign everything as through-hole, this will require a bit of redesign. I would recommend purchasing a USB boost converter, not populating the integrated boost converter, and using the passthrough I've left you (J2). Then switch the CD4069 to the DIP version, and add in through hole resistors and capacitors. 
+If you want to redesign everything as through-hole, this will require a bit of redesign. I would recommend purchasing a USB boost converter, not populating the integrated boost converter, and using the passthrough I've left you (J2). Then switch the CD4069 to the DIP version, and add in through hole resistors and capacitors. I vaguely recall that the DIP version of the CD4069 has better thermal dissipation, you might be able to get away with a smaller heat sink or none at all -- I've gotten away without one in older designs (give it a careful test though).
 
 ## Building the current design
 
