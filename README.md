@@ -2,6 +2,14 @@
 
 This circuit is designed to output random bytes out MQTT, each as a message. It works at 8-10k bytes per second depending on system voltage and the fact that the bitrate of the entropy source is variable by nature.
 
+# What? Why? You could just use a seed phrase and standard cryptography
+
+Yeah, that works fine and there's no real disadvantage.
+
+I've been designing various quantum TRNGs for nearly 15 years as part of an elaborate practical joke. This is just the latest one. I won't tell you what the joke is. Perhaps I'll never tell anyone. 
+
+Perhaps the world could do with a little more whimsy and playful mystery right now, and this is just my little bit that I can share with you.
+
 # How it works
 
 The core entropy source is two transistors in an unusual configuration. This is an old technique analogous to the classic "zener diode" method. It has the advantage of producing a slower signal, easier to sample.
