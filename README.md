@@ -8,7 +8,7 @@ Yeah, that works fine and there's no real disadvantage.
 
 I've been designing various quantum TRNGs for nearly 15 years as part of an elaborate practical joke. This is just the latest one. I won't tell you what the joke is. Perhaps I'll never tell anyone. 
 
-Perhaps the world could do with a little more whimsy and playful mystery right now, and this is just my little bit that I can share with you.
+The world could do with a little more whimsy and playful mystery right now, and this is just my little bit that I can share with you.
 
 # How it works
 
