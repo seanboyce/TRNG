@@ -53,4 +53,4 @@ I include both files, so that one day I may look back and consider *both attempt
 
 TODO: Clean up the project and KiCAD files before adding them here.
 
-![photo of the trng](https://raw.githubusercontent.com/seanboyce/trng/refs/heads/main/q_trng.jpg)
+![photo of the trng](https://raw.githubusercontent.com/seanboyce/trng/refs/heads/main/qtrng2.jpg)
