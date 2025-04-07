@@ -6,9 +6,10 @@
 - 3x 50k
 - 1x 1M
 
-## Capacitors:
+## Capacitors and Inductors:
 - 2x 22uF ceramic non-polar 1206
 - 3x 0.1uF ceramic non-polar 0603
+- 1x 22uH coil. Check size against KiCAD footprint.
 
 ## Discrete semiconductors:
 - 1x SS24 Schottky diode SMT (unsure of package)
